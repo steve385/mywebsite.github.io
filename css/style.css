@@ -1,0 +1,225 @@
+/*
+**************************
+* =miscellaneous
+**************************
+*/
+.container_24 {
+    margin-top: 10px;
+}
+
+blockquote {
+    position: relative;
+}
+
+blockquote, blockquote p {
+    font-size: 15px;
+    line-height: 20px;
+    font-style: italic;
+    color: #0e0e0e;
+}
+
+p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #353535;
+}
+
+h1, h2 {
+    letter-spacing: -1px;
+}
+
+h3 {
+    font-size: 26px;
+    text-transform: lowercase;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 1em;
+    letter-spacing: -1px;
+}
+
+a {
+    color: #7e7e7e;
+    text-decoration: none;
+}
+
+a:hover, .selected {
+    color: black;
+}
+
+li {
+    margin-left: 24px;
+}
+
+.button {
+    background: #242324;
+    padding: 6px;
+    color: white;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: black;
+    color: white;
+}
+
+/*
+**************************
+* =fonts
+**************************
+*/
+
+@font-face {
+    font-family: "roboto-light";
+    src: url(../fonts/Roboto-Light.ttf) format("truetype");
+}
+
+/*
+**************************
+* =header
+**************************
+*/
+
+header {
+    overflow: hidden;
+}
+
+header h1 {
+    background: url(../img/logo.png) no-repeat;
+    text-indent: -9999;
+    width: 174px;
+    height: 23px;
+    margin: 10px 10px 22px;
+    float: left;
+}
+
+/*
+**************************
+* =navigation
+**************************
+*/
+
+nav {
+    float: right;
+    padding-top: 12px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-transform: lowercase;
+}
+
+/*
+**************************
+* =banner
+**************************
+*/
+
+.banner {
+    background: url(../img/city-bg.jpg) no-repeat;
+    width: 695px;
+    height: 231px;
+    clear: left;
+}
+
+.callout {
+    height: 231px;
+    background: black;
+}
+
+.banner h2 {
+    color: white;
+    font-family: "roboto-light";
+    font-size: 26px;
+    font-weight: lighter;
+    text-transform: lowercase;
+    width: fit-content;
+    background: rgba(30, 30, 30, 0.4);
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.banner h2:first-child {
+    margin-top: 95px;
+}
+
+/*
+**************************
+* =main
+**************************
+*/
+
+.main {
+    margin-top: 20px;
+}
+
+.main blockquote {
+    padding-left: 30px;
+}
+
+.main blockquote p:before,
+.main blockquote p:after {
+    font-size: 40px;
+    color: #bfbfbf;
+    font-style: italic;
+}
+
+.main blockquote p:first-child:before {
+    content: '“';
+    position: absolute;
+    top: 7px;
+    left: 0;
+}
+
+.main blockquote p:last-child:after {
+    content: '”';
+    float: right;
+    position: absolute;
+    bottom: -7px;
+    right: 0;
+}
+
+/*
+**************************
+* =footer
+**************************
+*/
+
+footer {
+    clear: both;
+    border-top: 1px solid #d1d1d1;
+    padding-top: 18px;
+    margin-top: 30px;
+}
+
+/*
+**************************
+* =work
+**************************
+*/
+.work h2,h4 {
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.work h2 {
+    margin-bottom: 0px;
+}
+
+.work img  {
+    margin-bottom: 20px;
+}
+
+.work h4 {
+    color: #787878;
+    line-height: 1em;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 33px;
+    margin-bottom: 30px;
+}
